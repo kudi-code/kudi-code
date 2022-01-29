@@ -4,11 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola</title>
+    <title>Mi portafolio >> Kevin Salvador</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
-<body>
-    <h1>
-        Esta es una prueba de GitHub Pages
-    </h1>
+<body>    
+    <section id="hero">
+        <nav>
+            <div>
+                <!-- Simulando un clic -->
+                <input type="checkbox" id="menu" name="menu">
+                <label for="menu"><img src="./assets/Iconos/menu.svg" alt="Hamburguesa" srcset="" id="hamburguer"></label>
+                <!-- Anidar label con un input -->            
+                <ul>
+                    <li>Inicio</li>
+                    <li>Nosotros</li>
+                    <li>Contacto</li>
+                </ul>            
+            </div>
+        </nav>
+        <h1>Soy <span>Kevin Salvador</span></h1> <br>
+        <h2>Le doy<b> vida digital</b> a tu marca <b> a través del desarrollo web</b></h2>
+        <aside id="globo1" class="globos"><h3>Front-end developer</h3><h4>1 año</h4></aside>
+        <img id="yo" src="./assets/Foto.png" alt="Mi-foto">        
+        <aside id="globo2" class="globos"><h3>UX designer</h3><h4>3 meses</h4></aside>
+        <div id="icons">
+            <img class="icons icons-unpair" src="./assets/Iconos/linkedin.webp" alt="linkedin">
+            <img class="icons" src="./assets/Iconos/facebook-brands.svg" alt="facebook">
+            <img class="icons icons-unpair" src="./assets/Iconos/github-brands.svg" alt="github">
+        </div>
+    </section>
+    <section id="contact">
+        <h3>¿Te gustaría colaborar juntos creando proyectos increíbles?</h3>
+        <form action="">
+            <input type="text" id="email" name="email" placeholder="Escribe tu correo aquí...">
+            <input type="submit" id="send-button" value="¡listo!">  
+        </form>
+    </section>
+    <section id="about" >
+        <h2> Acerca de mí</h2>
+        <div class="about-text">
+        <div class="about-text-line"></div>
+           <p> Ingeniero Electrónico de carrera, Programador de profesión. 
+                Me gusta que mi trabajo hable por mí. Estoy comprometido para que <b>tanto empleador como profesionista</b> quedemos satisfechos con el resultado
+            </p>
+        </div>
+    </section>
+        <a href="https://www.google.com"><button type="button" id="download"><i class="fas fa-download"></i>⠀Descargar CV</button></a>
+        <br><br><br><h2 id="estudios">Estudios</h2> <br>
+    <section id="schools">       
+        <div class="cards">
+            <img class="cards--logo" src="./assets/Logos-Imágenes/tec-oaxaca.png" alt="" srcset="">
+            <h3>Instituto Tecnológico de Oaxaca</h3>
+            <h4>2016-2021</h4>
+            <p>Ingeniero Electrónico</p>
+        </div>
+        <div class="cards">
+            <img class="cards--logo academlo" src="./assets/Logos-Imágenes/logo_academlo.png" alt="" srcset="">
+            <h3 class="academlo--subtitle">Academlo</h3>
+            <h4>2021</h4>
+            <br>
+            <p>Programador web Full Stack</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Mis habilidades:</h2><br>
+        <div class="skills--flex">
+            <h4>Web Design</h4>
+            <p class="skills--percent">80%</p>
+        </div>
+        <div class="skills-bar-gray"></div>
+        <div class="skills-bar-blue bar-one"></div>
+        <div class="skills--flex">
+            <h4>Solución de problemas</h4>
+            <p class="skills--percent">85%</p>
+        </div>
+        <div class="skills-bar-gray"></div>
+        <div class="skills-bar-blue bar-two"></div>
+        <div class="skills--flex">        
+            <h4>Creatividad</h4>
+            <p class="skills--percent">80%</p>
+        </div>
+        <div class="skills-bar-gray"></div>
+        <div class="skills-bar-blue bar-three"></div>
+        <div class="skills--flex">        
+            <h4>UX Design</h4>
+            <p class="skills--percent">82%</p>
+        </div>
+        <div class="skills-bar-gray"></div>
+        <div class="skills-bar-blue bar-four"></div>
+    </section>
+    <section id="slides">
+        <h2>Experiencia</h2>
+        <div id="div-cards">
+            <div class="slides--cards">
+                <img src="./assets/Logos-Imágenes/Botón.png" alt="Softpaq">
+                <h3>Softpaq</h3>
+                <span>Web Developer</span><br>
+                <b>1 año</b>
+            </div>
+            <div class="slides--cards">
+                <img id="seti" src="./assets/Logos-Imágenes/SETI.png" alt="Softpaq">
+                <h3>SETI Comunicaciones</h3>
+                <span>Técnico Electrónico</span><br>
+                <b>6 meses</b>
+            </div>
+        </div>
+    </section>
+    <!-- alt 60= < -->
+    <!-- alt 62= > -->
+</section>
+    <section id="portfolio">
+        <h2>Mi portafolio</h2>
+        <div class="portfolio--links">
+            <a href="#">UI Design</a>
+            <a href="#">Web Development</a>
+        </div>
+    </section>
+    <section id="Contact">
+        <h2>Contacto</h2>
+        <section class="contact--cards">
+            <div>
+                <div class="div--icons">
+                    <img class="contact--icons" src="./assets/Iconos/phone.svg" alt="" srcset="">
+                </div>
+                <h3>Teléfono</h3>                
+                <a href="tel:9512122521">9512122521</a>
+            </div>            
+            <div id="div--email">
+                <div class="div--icons">              
+                    <img class="contact--icons" src="./assets/Iconos/mail.svg" alt="" srcset="">
+                </div>
+                    <h3>Correo</h3>                    
+                <a href="mailto:kevinsal.casas@gmail.com">kevinsal.casas@gmail.com</a>
+            </div>
+        </section>
+     </section>
+    <footer>
+        <h2>Kevin Salvador</h2>
+        <span>Hecho con <b id="heart">❤</b> en Academlo </span>
+    </footer>
+    
 </body>
 </html>

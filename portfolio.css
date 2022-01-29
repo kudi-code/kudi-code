@@ -1,0 +1,58 @@
+:root{ /*Variables*/
+  --dark-blue: #1a29f7;  
+  --soft-blue: #1a94f7;
+  --ligth-blue: #cae7ff;
+  --ligth-gray: rgb(235, 235, 235); 
+}
+*{ /*Quitar configuraciones por defecto del navegador*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.7%; /*?para hacer uso del rem y no de px*/
+  font-family: 'Quicksand', sans-serif; /*Font por defecto*/
+  /*font-family: 'Inter', sans-serif; */
+  scroll-behavior: smooth;
+}
+.contenedor{
+  
+}
+
+#pestanas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* float: top; */
+  font-size: 3ex;
+  font-weight: bold;
+  margin: 0px 30px;
+}
+
+#pestanas ul{
+}
+
+#pestanas li{
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  margin: 0px 10px;
+  padding: 15px 18px;
+  font-size: 1.3rem;
+}
+
+#pestanas a:link{
+  text-decoration: none;
+  color: bisque;
+}
+
+#contenidopestanas{
+  clear: both;  
+  background: dimgray;
+  padding: 20px 0px 20px 20px;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border: 2px solid bisque;
+  width: 100%;
+  transition: ease 0.5s;
+}

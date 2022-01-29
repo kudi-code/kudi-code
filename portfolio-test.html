@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="./portfolio.css"/>
+    <script type="text/javascript" src="./portfolio.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Test</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div id="pestanas">
+            <ul id=lista>
+              <a href='javascript:cambiarPestanna(pestanas,pestana1);'><li id="pestana1">UX Design</li></a>
+              <a href='javascript:cambiarPestanna(pestanas,pestana2);'><li id="pestana2">Web development</li></a>
+            </ul>
+        </div>
+
+        <body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+
+        <div id="contenidopestanas">
+            <div id="cpestana1">
+                Contenido de la pestaña 1
+            </div>
+            <div id="cpestana2">
+                Contenido de la pestaña 2
+            </div>
+    </div>
+</body>
+</html>
+</pre>
