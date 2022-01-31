@@ -373,6 +373,54 @@ nav div ul li{
     color: black;
     text-decoration: none;
 }
+/* Inician pestañas del portfolio */
+#pestanas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    /* float: top; */
+    font-size: 3ex;
+    font-weight: bold;
+    margin: 0px 30px;
+  }
+  
+  #pestanas ul{
+    vertical-align: middle;
+  }
+  
+  #pestanas li{
+    
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    vertical-align: bottom;
+    margin: 0px 10px;
+    padding: 15px 18px;
+    font-size: 1.3rem;
+  }
+  
+  #pestanas a:link{
+    text-decoration: none;
+    color: bisque;
+  }
+  
+  #contenidopestanas{
+    clear: both;
+    text-align: center; 
+    vertical-align: center;
+    padding: 15px;
+    border-top-left-radius: 0px;
+    border-top: 2px solid #1a29f7;
+    border-bottom: 2px solid #1a29f7;
+    width: 100%;  
+    transition: all 200ms linear;
+  }
+  #contenidopestanas img{
+    width: 200px;
+    margin: 0 auto;
+  }
+/* terminan pestañas */
 #Contact{
     height: 280px;
 }

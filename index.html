@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio >> Kevin Salvador</title>
+    <script type="text/javascript" src="./portfolio.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -119,10 +121,26 @@
 </section>
     <section id="portfolio">
         <h2>Mi portafolio</h2>
-        <div class="portfolio--links">
-            <a href="#">UI Design</a>
-            <a href="#">Web Development</a>
-        </div>
+        <div class="contenedor">
+            <div id="pestanas">
+                <ul id=lista>
+                  <a href='javascript:cambiarPestanna(pestanas,pestana1);'><li id="pestana1">Móvil</li></a>
+                  <a href='javascript:cambiarPestanna(pestanas,pestana2);'><li id="pestana2">Desktop</li></a>
+                </ul>
+            </div>
+    
+            <body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+    
+            <div id="contenidopestanas">
+                <div id="cpestana1">
+                    <img src="./assets/Logos-Imágenes/mobile-1.webp" alt="">
+                    <img src="./assets/Logos-Imágenes/mobile-2.webp" alt="" srcset="">
+                </div>
+                <div id="cpestana2">
+                    <img src="./assets/Logos-Imágenes/desktop-1.png" style="width: 100%;" alt="">
+                    <img src="./assets/Logos-Imágenes/desktop-2.webp" style="width: 100%;" alt="">
+    
+                </div>
     </section>
     <section id="Contact">
         <h2>Contacto</h2>
