@@ -232,11 +232,11 @@ nav div ul li{
 #download{
     display: block;
     border: none;
-    border-radius: 10px;
+    border-radius: 18px;
     background-color: var(--dark-blue);
     font-size: 1.5rem;
     color: white;
-    padding: 10px;
+    padding: 15px;
     margin: 10px auto;
     cursor: pointer;
 }
@@ -439,7 +439,7 @@ label{
     display: none;
 }
 nav div ul li{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
    
 }
 
