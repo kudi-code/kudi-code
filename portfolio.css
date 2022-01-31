@@ -47,12 +47,16 @@ html {
 }
 
 #contenidopestanas{
-  clear: both;  
-  background: dimgray;
-  padding: 20px 0px 20px 20px;
+  clear: both;
+  text-align: center; 
+  padding: 15px;
   border-radius: 5px;
   border-top-left-radius: 0px;
   border: 2px solid bisque;
   width: 100%;
   transition: ease 0.5s;
+}
+#contenidopestanas img{
+  width: 200px;
+  margin: 0 auto;
 }
