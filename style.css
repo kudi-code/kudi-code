@@ -141,7 +141,7 @@ nav div ul li{
 #yo
 {
     width: 45%;
-    margin-top: 42px;
+    margin-top: 60px;
 }
 #icons
 {    
@@ -438,6 +438,11 @@ section{
 label{
     display: none;
 }
+nav div ul li{
+    font-size: 1.8rem;
+   
+}
+
 input#menu~ul{
     position: static;
     background-color: transparent;
@@ -489,7 +494,7 @@ footer{
 @media only screen and (min-width:726px){
 
     #hero #yo{
-        margin-top: 40px;
+        margin-top: 0px;
     }
 }
 
@@ -508,10 +513,8 @@ section{
     margin: 0 auto;
     height: 680px;
 }
-#yo{
-    margin: 0;
-    max-width: 200px;
-}
+ 
+
 .globos
 {
     position: relative;
