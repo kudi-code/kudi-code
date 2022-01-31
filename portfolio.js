@@ -17,7 +17,7 @@ function cambiarPestanna(pestannas,pestanna) {
       $(document).ready(function(){
           $(listacPestannas.getElementsByTagName('div')[i]).css('display','none');
           $(listaPestannas.getElementsByTagName('li')[i]).css('background','');
-          $(listaPestannas.getElementsByTagName('li')[i]).css('padding-bottom','');
+          $(listaPestannas.getElementsByTagName('li')[i]).css('padding-bottom','10px');
           $(listaPestannas.getElementsByTagName('li')[i]).css('color','rgb(65, 65, 65)');
 
       });
@@ -32,7 +32,8 @@ function cambiarPestanna(pestannas,pestanna) {
       $(cpestanna).css('display','');
       $(pestanna).css('background','');      
       $(pestanna).css('color','#1a29f7');
-      $(pestanna).css('padding-bottom','2px'); 
+      $(pestanna).css('padding-bottom','10px'); 
+      $(contenidopestanas).css('transition', 'all 200ms linear')
   });
 
 }
